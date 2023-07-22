@@ -4,10 +4,10 @@ from tkinter import *
 class Cadastro:
     def __init__(self):
         self.bancodedados = mysql.connector.connect(
-            host="127.0.0.1",
-            user="root",
-            password="amlnra409",
-            database="cadastro"
+            host="",
+            user="",
+            password="",
+            database=""
         )
         
         self.cont = 0
